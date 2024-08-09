@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(30, 30, 40);
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 88vh;
+    border: 4px solid whitesmoke;
+    background-color: rgba(0, 0, 50);
+    border-radius: 10px;
+}
+
+div.column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+    min-height: 80vh;
+    border: 4px solid whitesmoke;
+    background-color: rgba(0, 0, 100);
+    border-radius: 20px;
+}
+
+div.item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+div.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+    background-color:rgb(52, 77, 78);
+}
+
+div.hi {
+    margin: -10px;
+    border-radius: 18px 18px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+div.hi > p {
+    font-size: 40px;
+}
+
+div.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(0,0,50);
+    margin: 0px 0px 15px 0px;
+    padding: 20px;
+}
+
+div#cad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    position: absolute; 
+    background-color: green;
+    right: 20px;
+}
+
+div#x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    background-color: red;
+    right: 240px;
+}
+
+
+div#cad, div#x > p {   
+    font-size: 30px;
+}
+
+div.modal.active {
+    top: 20%;
+}
+
+div#modal {
+    background-color: blue;
+    border-radius: 20px;
+    height: 250px;
+    position: fixed;
+    border: 5px solid white;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+div.mTitle {
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(0, 0, 75);
+    border-radius: 15px 15px 0px 0px;
+}
+
+div.titletitle{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 35px;
+    width: 160px;
+    border-radius: 10px;
+    left: 45%;
+}
+
+div.titleX {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.overlay {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.overlay.active {
+    display: block;
+}

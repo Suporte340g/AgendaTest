@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="h"><h1 id="a">hello, world</h1></div>
+        <div id="cad" onclick="cad()" data-target="#modal"><p>cadastrar</p></div>
+        <div id="x"><p>X</p></div>
+    </div>
+    
+    <div class="container">
+        <div class="column">
+            <div class="hi"><p>novo</p></div>
+            <div class="item" draggable="true">
+                <div class="i"><p>text</p></div>                
+            </div>
+            <div class="item" draggable="true">
+                <div class="i"><p>text</p></div>
+            </div>
+            <div class="item" draggable="true">
+                <div class="i"><p>text</p></div>
+            </div>
+            <div class="item" draggable="true">
+                <div class="i"><p>text</p></div>
+            </div>
+            <div class="item" draggable="true">
+                <div class="i"><p>text</p></div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="hi"><p>aceito</p></div>
+        </div>
+        <div class="column">
+            <div class="hi"><p>em processo</p></div>
+        </div>
+        <div class="column">
+            <div class="hi"><p>concluido</p></div>
+        </div>
+    </div>
+    <div id="modal">
+        <div class="mTitle">
+            <div class="titletitle" style="background-color: purple;">title</div>
+            <div class="titleX" style="background-color: red;"><p>X</p></div>
+        </div>
+        <div class="mContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis incidunt, facilis veritatis exercitationem nemo fuga, omnis itaque molestiae voluptatum magnam quia? Similique culpa aut reprehenderit assumenda consectetur repellat, quasi illo!</div>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
